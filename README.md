@@ -1,1 +1,5 @@
-# HOPE_informatics_core
+# HOPE informatics core
+
+## Quick links
+
+### [Login information](
