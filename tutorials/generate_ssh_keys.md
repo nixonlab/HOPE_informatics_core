@@ -82,7 +82,7 @@ Now you will have two files in your `~/.ssh` directory :
 
 5. Add the Public Key to Your Services:
 
-While you already have an account in the cluster, we need you to provide your ssh public key to grant you secure access. 
+An account has been created for you in the cluster, but we need you to provide your ssh public key to give you secure access. 
 
 - View your **public key**
 
@@ -99,7 +99,7 @@ ssh-ed25519 AAAAC3...restofyourkey... your_email@example.com
 
 Highlight this output in the terminal and copy it (Ctrl + C on Linux, Cmd + C on macOS).
 
-Send your public key to hreyesgopar@northwell.edu. 
+Send your public key to hreyesgopar@northwell.edu
 
 Congratulations, You’ve successfully generated an SSH key using the ED25519 protocol. You'll be able to test your connection to the server very soon.
 
