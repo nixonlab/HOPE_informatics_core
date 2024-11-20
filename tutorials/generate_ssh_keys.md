@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SSH keys are a pair of cryptographic keys (one public "`.pub`", one private) used for secure access to remote servers. They are an alternative to passwords and provide stronger security because they are nearly impossible to guess or crack.
+SSH keys are a pair of cryptographic keys (one public, one private) used for secure access to remote servers. They are an alternative to passwords and provide stronger security because they are nearly impossible to guess or crack.
 
 The ED25519 protocol is a modern and secure algorithm for generating SSH keys. There are other older algorithms you might encounter (e.g. "RSA") but ED25519 is better and uses smaller keys.
 
@@ -31,7 +31,8 @@ Before we start, ensure you have:
 
 ## Step 3: Generate the SSH Key
 
-1. **Run the following command** in the terminal:
+1. Run the following command in the terminal:
+
    ```bash
    ssh-keygen -t ed25519 -C "your_email@example.com"
    ```
@@ -59,8 +60,8 @@ Enter passphrase (empty for no passphrase):
 If successful, the output will look similar to this:
 
 ```
-Your identification has been saved in /home/your-username/.ssh/id_ed25519.
-Your public key has been saved in /home/your-username/.ssh/id_ed25519.pub.
+Your identification has been saved in /home/your-username/.ssh/id_ed25519
+Your public key has been saved in /home/your-username/.ssh/id_ed25519.pub
 The key fingerprint is:
 SHA256:abcdefgh12345678abcdefgh12345678abcdefgh1234 your_email@example.com
 The key's randomart image is:
